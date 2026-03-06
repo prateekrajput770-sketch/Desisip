@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Desi Sip - Authentic Indian Buttermilk</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#fffdf6;
+color:#333;
+line-height:1.6;
+}
+
+/* Header */
+
+header{
+background:#2e7d32;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+header h1{
+font-size:40px;
+letter-spacing:2px;
+}
+
+header p{
+font-size:18px;
+opacity:0.9;
+}
+
+/* Hero */
+
+.hero{
+padding:60px 20px;
+text-align:center;
+background:#fff3cd;
+}
+
+.hero h2{
+font-size:36px;
+margin-bottom:15px;
+color:#2e7d32;
+}
+
+.hero p{
+font-size:18px;
+max-width:700px;
+margin:auto;
+}
+
+/* Products */
+
+.products{
+padding:60px 20px;
+text-align:center;
+}
+
+.products h2{
+font-size:32px;
+margin-bottom:40px;
+color:#2e7d32;
+}
+
+.product-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:30px;
+max-width:1000px;
+margin:auto;
+}
+
+.product{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.product:hover{
+transform:translateY(-5px);
+}
+
+.product h3{
+color:#2e7d32;
+margin-bottom:10px;
+}
+
+.price{
+font-weight:bold;
+color:#ff9800;
+font-size:18px;
+}
+
+/* About */
+
+.about{
+padding:60px 20px;
+background:#f4f7f4;
+text-align:center;
+}
+
+.about h2{
+font-size:30px;
+margin-bottom:20px;
+color:#2e7d32;
+}
+
+.about p{
+max-width:700px;
+margin:auto;
+font-size:17px;
+}
+
+/* Footer */
+
+footer{
+background:#2e7d32;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Desi Sip</h1>
+<p>Authentic Indian Buttermilk</p>
+</header>
+
+<section class="hero">
+<h2>Refreshment Straight From Indian Tradition</h2>
+<p>Desi Sip brings the authentic taste of traditional Indian buttermilk with modern quality and hygiene. Healthy, refreshing, and perfect for every day.</p>
+</section>
+
+<section class="products">
+
+<h2>Our Flavours</h2>
+
+<div class="product-grid">
+
+<div class="product">
+<h3>Classic Masala Chaas</h3>
+<p>Traditional spiced buttermilk with roasted cumin.</p>
+<p class="price">₹30</p>
+</div>
+
+<div class="product">
+<h3>Mint Jeera Chaas</h3>
+<p>Refreshing mint flavor with jeera twist.</p>
+<p class="price">₹35</p>
+</div>
+
+<div class="product">
+<h3>Spicy Punjabi Chaas</h3>
+<p>Bold and spicy buttermilk for real desi taste.</p>
+<p class="price">₹35</p>
+</div>
+
+<div class="product">
+<h3>Himalayan Salt Chaas</h3>
+<p>Light and healthy with pink Himalayan salt.</p>
+<p class="price">₹40</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="about">
+
+<h2>About Desi Sip</h2>
+
+<p>
+Desi Sip is an Indian beverage brand focused on bringing traditional buttermilk (chaas) to modern consumers. Our drinks are made using authentic recipes, fresh ingredients, and a commitment to healthy refreshment.
+</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 Desi Sip | Indian Buttermilk Brand</p>
+
+</footer>
+
+</body>
+  </html>
